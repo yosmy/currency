@@ -1,0 +1,4 @@
+/test/config/parameters.yml
+/test/var/cache
+/test/var/db
+/vendor/

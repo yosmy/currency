@@ -1,0 +1,30 @@
+{
+    "name": "yosmy/currency",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "yosmy/error": "@dev",
+        "yosmy/event": "@dev",
+        "yosmy/http": "@dev"
+    },
+    "require-dev": {
+        "symsonte/framework": "@dev",
+        "symfony/debug": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Currency\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
